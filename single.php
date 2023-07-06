@@ -2,6 +2,6 @@
   while (have_posts()) {
     the_post(); ?>
     <h2> <?php the_title(); ?></h2>
-    <p><?php the_content("Click to read mre",true); ?> </p>
+    <?php the_content("Click to read mre",true); ?>
   <?php }
 ?>

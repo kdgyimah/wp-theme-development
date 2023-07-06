@@ -3,6 +3,6 @@
     the_post(); ?>
     <h1>This is a page, not a post.</h1>
     <h2> <?php the_title(); ?></h2>
-    <p><?php the_content("Click to read mre",true); ?> </p>
+    <?php the_content("Click to read mre",true); ?>
   <?php }
 ?>
