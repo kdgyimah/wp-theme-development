@@ -3,3 +3,8 @@ Theme Name: Fictional University
 Author: King
 Version: 0.1
 */
+
+html, body { margin: 0; padding: 0;}
+header h1 {margin: 20px 0;}
+header {color: white; padding: 20px; background: rgb(101, 125, 101);}
+body main, body footer {padding: 0 20px;}
